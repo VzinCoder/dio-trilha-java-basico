@@ -57,6 +57,28 @@ public class Operadores {
         String saida = a==5 ? "'a' é igual a 5" : "'a' é diferente de 5";
         System.out.println(saida);
 
+        // operadores relacionais
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        if(numero1 > numero2){ 
+            System.out.println("Numero 1 maior que Numero 2");
+        }
+
+        if(numero1 < numero2){
+            System.out.println("Numero 1 menor que Numero 2");
+        }
+
+        if(numero1 != numero2){ // 
+            System.out.println("Numero 1 diferente de Numero 2");
+        } 
+
+        if(numero1 == numero2){
+            System.out.println("Numero 1 é igual ao Numero 2");
+        }
+
+    
         
     }
 }
