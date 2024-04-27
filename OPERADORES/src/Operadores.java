@@ -18,5 +18,8 @@ public class Operadores {
         int modulo = 18 % 3; // resto
         double resultado = (10 * 7);
 
+        String nome = "Vinicius" + " Pereira"; // concatena as duas Strings
+        System.out.println(nome); // saida: Vinicius Pereira
+
     }
 }
