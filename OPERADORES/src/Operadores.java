@@ -21,5 +21,20 @@ public class Operadores {
         String nome = "Vinicius" + " Pereira"; // concatena as duas Strings
         System.out.println(nome); // saida: Vinicius Pereira
 
+        // unarios 
+
+        int numero = 5;
+        numero = -numero;
+        System.out.println(numero); // saida -5 
+        numero = numero*-1; // para deixar positivo
+        System.out.println(numero); // saida 5 
+
+        // incrementar
+        System.out.println(numero++); // retorna o valor e depois incrementa 1
+        // decrementar
+        System.out.println(numero--);  // retorna o valor e depois decrementa 1
+
+        System.out.println(numero);
+        
     }
 }
