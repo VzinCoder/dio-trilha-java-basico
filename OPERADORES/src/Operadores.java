@@ -29,12 +29,34 @@ public class Operadores {
         numero = numero*-1; // para deixar positivo
         System.out.println(numero); // saida 5 
 
+        boolean gostaDePao = true;
+
+        System.out.println(!gostaDePao);
+
         // incrementar
         System.out.println(numero++); // retorna o valor e depois incrementa 1
         // decrementar
         System.out.println(numero--);  // retorna o valor e depois decrementa 1
 
         System.out.println(numero);
+
+        // ternario (if de uma linha)
+
+        int a,b;
+
+        a = 5;
+        b = 6;
+
+        /*
+        if(a == 5){
+            System.out.println("'a' é igual a 5");
+        }else{
+            System.out.println("'a' é diferente a 5");
+        }
+        */
+        String saida = a==5 ? "'a' é igual a 5" : "'a' é diferente de 5";
+        System.out.println(saida);
+
         
     }
 }
